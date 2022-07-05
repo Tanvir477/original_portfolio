@@ -9,9 +9,17 @@
     <link rel="stylesheet" href="CSS FILE/style.css">
     <link rel="stylesheet" href="CSS FILE/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- =====style switcher ===== -->
+    <link rel="stylesheet" href="CSS FILE/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="CSS FILE/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="CSS FILE/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="CSS FILE/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="CSS FILE/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="CSS FILE/style-switcher.css">
+    
     
 </head>
-<body>
+<body >
     <!-- ===========Main container start============ -->
     <div class="container">
         <!-- ==========aside start========== -->
@@ -25,11 +33,11 @@
                 </span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i> Home </a></li>
-                <li><a href="#" class=""><i class="fa fa-user"></i> About </a></li>
-                <li><a href="#" class=""><i class="fa fa-list"></i> Service </a></li>
-                <li><a href="#" class=""><i class="fa fa-briefcase"></i> Portfolio </a></li>
-                <li><a href="#" class=""><i class="fa fa-comments"></i> Contact </a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home </a></li>
+                <li><a href="#about" class=""><i class="fa fa-user"></i> About </a></li>
+                <li><a href="#services" class=""><i class="fa fa-list"></i> Service </a></li>
+                <li><a href="#portfilio" class=""><i class="fa fa-briefcase"></i> Portfolio </a></li>
+                <li><a href="#contact" class=""><i class="fa fa-comments"></i> Contact </a></li>
                 
             </ul>
         </div>
@@ -37,7 +45,7 @@
         <!-- ===============main content start============= -->
         <div class="main-content">
             <!-- ======== Home section Start ========== -->
-            <section class="home section hidden">
+            <section class="home active section " id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
@@ -56,7 +64,7 @@
             </section>
             <!-- ======== Home section End ========== -->
             <!-- ======== about section Start ========== -->
-            <section class="about section hidden">
+            <section class="about section " id="about">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -224,7 +232,7 @@
             </section>
             <!-- ======== about section end ========== -->
             <!-- ======== Services section Start ========== -->
-            <section class="service section">
+            <section class="service section " id="services">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -297,22 +305,197 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit blanditiis esse,</p>
                             </div>
                         </div>
-                        <!-- =====Services Item End==== -->
-                        
+                        <!-- =====Services Item End==== -->                                    
                     </div>
                 </div>
 
             </section>
             <!-- ======== Services section End ========== -->
+            <!-- =====portfolio section start==== -->
+            <section class="portfolio section " id="portfilio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Last Project :</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- ========== Portfolio item Start ========== -->
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/portfolio1 (1).jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <!-- ========== Portfolio item End ========== -->
+                        <!-- ========== Portfolio item Start ========== -->
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/portfolio1 (6).jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <!-- ========== Portfolio item End ========== -->
+                        <!-- ========== Portfolio item Start ========== -->
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/portfolio1 (2).jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <!-- ========== Portfolio item End ========== -->
+                        <!-- ========== Portfolio item Start ========== -->
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/portfolio1 (3).jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <!-- ========== Portfolio item End ========== -->
+                        <!-- ========== Portfolio item Start ========== -->
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/portfolio1 (4).jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <!-- ========== Portfolio item End ========== -->
+                        <!-- ========== Portfolio item Start ========== -->
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/portfolio1 (5).jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <!-- ========== Portfolio item End ========== -->
+
+                    </div>
+                </div>
+
+            </section>
+            <!-- ===== portfolio Section End==== -->
+            <!-- ===== Contact section start==== -->
+                <section class="contact section" id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Contact Me</h2>
+                            </div>
+                        </div>
+                        <h3 class="contact-title padd-15">Have You any Question ?</h3>
+                        <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+                        <div class="row">
+                            <!-- ===== Contact Info Item Start ==== -->
+                            <div class="contact-info-item padd-15">
+                                <div class="icon"><i class="fa fa-phone"></i></div>
+                                <h4>Call Us On</h4>
+                                <p>+8801679759992</p>
+                            </div>
+                            <!-- ===== Contact Info Item End ==== -->
+                            <!-- ===== Contact Info Item Start ==== -->
+                            <div class="contact-info-item padd-15">
+                                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                                <h4>Office</h4>
+                                <p>Kuril Chowrasta</p>
+                            </div>
+                            <!-- ===== Contact Info Item End ==== -->
+                            <!-- ===== Contact Info Item Start ==== -->
+                            <div class="contact-info-item padd-15">
+                                <div class="icon"><i class="fa fa-envelope"></i></div>
+                                <h4>Email</h4>
+                                <p>Tanvirhassan477@gmail.com</p>
+                            </div>
+                            <!-- ===== Contact Info Item End ==== -->
+                            <!-- ===== Contact Info Item Start ==== -->
+                            <div class="contact-info-item padd-15">
+                                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                                <h4>Website</h4>
+                                <p>Tanvirhassan477.com</p>
+                            </div>
+                            <!-- ===== Contact Info Item End ==== -->
+                        </div>
+                        <h3 class="contact-title padd-15">SEND ME AN EMAIL ?</h3>
+                        <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+                        <!-- ===== Contact Form ===== -->
+                        <div class="row">
+                            <div class="contact-form padd-15">
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="from-group">
+                                            <input type="text" class="form-control" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="from-group">
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                     <div class="form-item col-12 padd-15">
+                                        <div class="from-group">
+                                            <input type="text" class="form-control" placeholder="Subject">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                     <div class="form-item col-12 padd-15">
+                                        <div class="from-group">
+                                            <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                     <div class="form-item col-12 padd-15">
+                                        <button type="submit" class="btn">Send Message</button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- ===== Contact section start==== -->     
         </div>
         <!-- ===============main content end============= -->
     </div>
     <!-- ===========Main container end============ -->
 
-
+     <!-- =========== Style switcher start ===========    -->
+     <div class="style-switcher">
+         <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+         </div>
+         <div class="day-night s-icon">
+             <i class="fas "></i>
+         </div>
+         <h4>Theme Colors</h4>
+         <div class="colors">
+             <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+             <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+             <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+             <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+             <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+         </div>
+     </div>
+     
+     <!-- =========== Style switcher End =============    -->
 
 
     <!-- =========js Files============ -->
-    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="js.file/script.js"></script>
+    <script src="js.file/style-switcher.js"></script>
 </body>
 </html>
